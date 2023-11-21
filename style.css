@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    background-color: #2e2e2e;
+
+    align-items: center;
+
+
+}
+
+p {
+    color: #fff;
+    font: 600 20px Verdana;
+}
+
+#spaceVideo {
+    border: none;
+}
+
+#btnVideo {
+    display: flex;
+
+    border-radius: 10px;
+
+    width: 200px;
+    height: 50px;
+
+    margin: 25px;
+
+    background-color: #00aaff;
+}
+
+#progresso {
+    height: 100%;
+    width: 0;
+    background-color: #005f8e94;
+    border-radius: 8px;
+    transition: 1s linear;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#textoBotao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+}
